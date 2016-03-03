@@ -1,2 +1,2 @@
-# responsive_wd
-rwd første forsøg
+# Hjemmeside-platforme
+Ipad mobil pc etc

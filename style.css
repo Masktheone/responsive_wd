@@ -1,0 +1,99 @@
+body{
+    width: 1024px;
+    height: auto;
+}
+section {
+    position: relative;
+    width: 1024px;
+    height: 97px;
+    margin-left: 1%;
+    margin-top: 20px;
+    background-color: ;
+    padding: 20px;
+}
+#one{
+    background-color: #373c3f;
+}
+/*Nav START*/
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul {
+
+    list-style: none;
+    position: relative;
+    display: inline-table;
+
+
+}
+
+nav ul:after {
+    content: ""; clear: both; display: block;
+
+}
+nav ul li {
+    float: left;
+}
+
+
+
+nav ul li:hover a {
+    color: #fff;
+}
+nav ul li a {
+    display: block; padding: 25px 20px;
+    color: white; text-decoration: none;
+
+}
+nav ul ul{
+    background: #373c3f; border-radius: 0px; padding: 0;
+    position: absolute; top: 100%;
+
+}
+nav ul ul li{
+    float: none;
+    border-top: 1px solid #373c3f;
+    border-bottom: 1px solid #373c3f;
+    position: relative;
+
+}
+nav ul ul li a{
+    padding: 15px 40px;
+    color: white;
+
+}
+
+nav ul ul ul{
+    position: absolute; left: 100%; top:0;}
+
+#blue{
+    height: 577px;
+    width: 100%;
+    background: #18b3c6;
+}
+#Black{
+    height: 245px;
+    width: auto%;
+    background: #27212c;
+}
+
+#Pink{
+    height: 245px;
+    width: 228px;
+    background: #bc3183;
+    float: right;
+
+}
+#lilla{
+    height: 245px;
+    width: 341px;
+    background: #5b0fa1;
+}
+
+/*Nav END*/
